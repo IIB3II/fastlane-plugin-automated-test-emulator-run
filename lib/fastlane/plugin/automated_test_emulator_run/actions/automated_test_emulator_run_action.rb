@@ -6,7 +6,7 @@ module Fastlane
 
       class AutomatedTestEmulatorRunAction < Action
         def self.run(params)
-          UI.message("The automated_test_emulator_run plugin is working!")
+          UI.message("The automated_test_emulator_run plugin is working for Intexsys!")
 
           # Parse JSON with AVD launch confing to array of AVD_scheme objects
           avd_schemes = Provider::AvdSchemeProvider.get_avd_schemes(params)
